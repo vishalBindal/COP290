@@ -1,0 +1,162 @@
+1) ./qSim 100 5 30 2.3
+
+Queue Type : one line per teller
+Number of customers = 100 ; Total time = 3108.721924 seconds
+Number of tellers = 5 ; Type of queueing = one line per teller
+Average time spent by customers in bank = 760.577942 seconds; Standard deviation = 331.949402 seconds
+Maximum wait time = 1313.391235 seconds
+Total teller service time = 13552.525391 seconds; Total teller idle time = 618.000000 seconds
+
+Queue Type : common line
+Number of customers = 100 ; Total time = 2871.730469 seconds
+Number of tellers = 5 ; Type of queueing = common line
+Average time spent by customers in bank = 598.115112 seconds; Standard deviation = 263.055176 seconds
+Maximum wait time = 1005.258057 seconds
+Total teller service time = 13147.396484 seconds; Total teller idle time = 560.000000 seconds
+
+2) ./qSim 100 5 60 2.3
+
+Queue Type : one line per teller
+Number of customers = 100 ; Total time = 3808.761230 seconds
+Number of tellers = 5 ; Type of queueing = one line per teller
+Average time spent by customers in bank = 195.232239 seconds; Standard deviation = 101.254089 seconds
+Maximum wait time = 253.993408 seconds
+Total teller service time = 13740.525391 seconds; Total teller idle time = 3906.000000 seconds
+
+Queue Type : common line
+Number of customers = 100 ; Total time = 3838.460205 seconds
+Number of tellers = 5 ; Type of queueing = common line
+Average time spent by customers in bank = 181.904602 seconds; Standard deviation = 88.732872 seconds
+Maximum wait time = 146.013184 seconds
+Total teller service time = 13501.622070 seconds; Total teller idle time = 4559.000000 seconds
+
+3) ./qSim 100 5 80 2.3
+
+Queue Type : one line per teller
+Number of customers = 100 ; Total time = 4867.785156 seconds
+Number of tellers = 5 ; Type of queueing = one line per teller
+Average time spent by customers in bank = 171.065643 seconds; Standard deviation = 83.968285 seconds
+Maximum wait time = 292.757263 seconds
+Total teller service time = 14188.068359 seconds; Total teller idle time = 8846.000000 seconds
+
+Queue Type : common line
+Number of customers = 100 ; Total time = 4974.696777 seconds
+Number of tellers = 5 ; Type of queueing = common line
+Average time spent by customers in bank = 145.085724 seconds; Standard deviation = 84.140312 seconds
+Maximum wait time = 88.452637 seconds
+Total teller service time = 12151.856445 seconds; Total teller idle time = 11728.000000 seconds
+
+4) ./qSim 500 5 60 2.3
+
+Queue Type : one line per teller
+Number of customers = 500 ; Total time = 13891.225586 seconds
+Number of tellers = 5 ; Type of queueing = one line per teller
+Average time spent by customers in bank = 5321.106934 seconds; Standard deviation = 2932.940918 seconds
+Maximum wait time = 10217.635742 seconds
+Total teller service time = 67454.914062 seconds; Total teller idle time = 775.000000 seconds
+
+Queue Type : common line
+Number of customers = 500 ; Total time = 14157.204102 seconds
+Number of tellers = 5 ; Type of queueing = common line
+Average time spent by customers in bank = 5443.620117 seconds; Standard deviation = 3035.605713 seconds
+Maximum wait time = 10332.500000 seconds
+Total teller service time = 69373.226562 seconds; Total teller idle time = 624.000000 seconds
+
+5) ./qSim 1000 5 60 2.3
+
+Queue Type : one line per teller
+Number of customers = 1000 ; Total time = 27711.427734 seconds
+Number of tellers = 5 ; Type of queueing = one line per teller
+Average time spent by customers in bank = 12096.048828 seconds; Standard deviation = 6954.987305 seconds
+Maximum wait time = 23954.308594 seconds
+Total teller service time = 136536.796875 seconds; Total teller idle time = 751.000000 seconds
+
+Queue Type : common line
+Number of customers = 1000 ; Total time = 28031.470703 seconds
+Number of tellers = 5 ; Type of queueing = common line
+Average time spent by customers in bank = 12379.695312 seconds; Standard deviation = 6990.652832 seconds
+Maximum wait time = 24176.882812 seconds
+Total teller service time = 138186.640625 seconds; Total teller idle time = 900.000000 seconds
+
+
+6) ./qSim 2000 5 60 2.3
+
+Queue Type : one line per teller
+Number of customers = 2000 ; Total time = 55826.031250 seconds
+Number of tellers = 5 ; Type of queueing = one line per teller
+Average time spent by customers in bank = 26010.552734 seconds; Standard deviation = 14901.548828 seconds
+Maximum wait time = 52052.707031 seconds
+Total teller service time = 276879.687500 seconds; Total teller idle time = 610.000000 seconds
+
+Queue Type : common line
+Number of customers = 2000 ; Total time = 54549.480469 seconds
+Number of tellers = 5 ; Type of queueing = common line
+Average time spent by customers in bank = 25427.103516 seconds; Standard deviation = 14578.682617 seconds
+Maximum wait time = 50809.050781 seconds
+Total teller service time = 271273.750000 seconds; Total teller idle time = 491.000000 seconds
+
+
+7) ./qSim 1000 20 60 2.3
+
+Queue Type : one line per teller
+Number of customers = 1000 ; Total time = 7318.316895 seconds
+Number of tellers = 20 ; Type of queueing = one line per teller
+Average time spent by customers in bank = 2002.885620 seconds; Standard deviation = 967.873535 seconds
+Maximum wait time = 3676.171631 seconds
+Total teller service time = 136622.328125 seconds; Total teller idle time = 3960.000000 seconds
+
+Queue Type : common line
+Number of customers = 1000 ; Total time = 7222.627930 seconds
+Number of tellers = 20 ; Type of queueing = common line
+Average time spent by customers in bank = 1945.021973 seconds; Standard deviation = 966.056824 seconds
+Maximum wait time = 3448.184326 seconds
+Total teller service time = 136354.328125 seconds; Total teller idle time = 2953.000000 seconds
+
+8) ./qSim 1000 20 60 5
+
+Queue Type : one line per teller
+Number of customers = 1000 ; Total time = 15477.521484 seconds
+Number of tellers = 20 ; Type of queueing = one line per teller
+Average time spent by customers in bank = 5990.123047 seconds; Standard deviation = 3320.593506 seconds
+Maximum wait time = 11439.498047 seconds
+Total teller service time = 296541.531250 seconds; Total teller idle time = 7235.000000 seconds
+
+Queue Type : common line
+Number of customers = 1000 ; Total time = 15872.768555 seconds
+Number of tellers = 20 ; Type of queueing = common line
+Average time spent by customers in bank = 6318.788086 seconds; Standard deviation = 3410.295898 seconds
+Maximum wait time = 11799.862305 seconds
+Total teller service time = 306486.750000 seconds; Total teller idle time = 6754.000000 seconds
+
+9) ./qSim 1000 20 60 0.5
+
+Queue Type : one line per teller
+Number of customers = 1000 ; Total time = 3650.588135 seconds
+Number of tellers = 20 ; Type of queueing = one line per teller
+Average time spent by customers in bank = 43.597187 seconds; Standard deviation = 45.074547 seconds
+Maximum wait time = 405.117126 seconds
+Total teller service time = 30203.214844 seconds; Total teller idle time = 37501.000000 seconds
+
+Queue Type : common line
+Number of customers = 1000 ; Total time = 3656.945068 seconds
+Number of tellers = 20 ; Type of queueing = common line
+Average time spent by customers in bank = 36.964069 seconds; Standard deviation = 19.845423 seconds
+Maximum wait time = 67.031982 seconds
+Total teller service time = 29471.396484 seconds; Total teller idle time = 38456.000000 seconds
+
+10) ./qSim 1000 10 60 2.3
+
+Queue Type : one line per teller
+Number of customers = 1000 ; Total time = 14268.570312 seconds
+Number of tellers = 10 ; Type of queueing = one line per teller
+Average time spent by customers in bank = 5526.688965 seconds; Standard deviation = 3019.716553 seconds
+Maximum wait time = 10538.971680 seconds
+Total teller service time = 138341.968750 seconds; Total teller idle time = 1655.000000 seconds
+
+Queue Type : common line
+Number of customers = 1000 ; Total time = 14295.623047 seconds
+Number of tellers = 10 ; Type of queueing = common line
+Average time spent by customers in bank = 5582.965332 seconds; Standard deviation = 2968.723877 seconds
+Maximum wait time = 10566.932617 seconds
+Total teller service time = 138540.968750 seconds; Total teller idle time = 1063.000000 seconds
+
